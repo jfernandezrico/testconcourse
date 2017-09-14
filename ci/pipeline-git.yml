@@ -30,3 +30,4 @@ jobs:
 - put: resource-deploy-web-app
   params:
     manifest: source-code/manifest.yml
+    path: output-code/*.jar
