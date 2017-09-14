@@ -8,4 +8,4 @@ cd source-code
 echo "Caling Maven ..."
 mvn verify
 
-cp source-code/target/*.jar output-code
+cp source-code/*.jar output-code/
