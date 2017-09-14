@@ -7,3 +7,5 @@ set -eu
 cd source-code
 echo "Caling Maven ..."
 mvn verify
+
+cp source-code/target/*.jar output-code
